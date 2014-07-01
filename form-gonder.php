@@ -23,10 +23,10 @@ $mesajimiz = "Email Adresi: ".$email."\r\n"  ;
 $mail = new PHPMailer();
 
 $mail->IsSMTP();                                   // send via SMTP
-$mail->Host     = "mail.argeset.com"; // SMTP servers
+$mail->Host     = "webmail.argeset.com"; // SMTP servers
 $mail->SMTPAuth = true;     // turn on SMTP authentication
 $mail->Username = "setcrm@argeset.com";  // SMTP username
-$mail->Password = " "; // SMTP password
+$mail->Password = "qwer4321"; // SMTP password
 
 $mail->From     = "setcrm@argeset.com"; // smtp kullanycy adynyz ile ayny olmaly
 $mail->Fromname = $email;

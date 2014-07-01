@@ -1,3 +1,5 @@
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
     <?
 require("class.phpmailer.php");
 
@@ -43,6 +45,6 @@ if(!$mail->Send())
 
 
 
-echo "<script>alert(\"Başarıyla Kaydedildiniz \") </script>";
+echo "<script>alert(\"Başarıyla Kaydedildi \") </script>";
 
 ?>
